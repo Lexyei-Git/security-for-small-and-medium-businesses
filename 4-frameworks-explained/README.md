@@ -60,3 +60,4 @@ Both frameworks are complementary:
    - Both frameworks are referenced in `5-maturity-roadmaps/` to show how your phased approach aligns with industry standards.
 
 ---
+The long‑term intention is for this repository to be a living reference for organizations that need to improve their security posture step by step, without assuming deep security expertise or large budgets.
