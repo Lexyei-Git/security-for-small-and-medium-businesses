@@ -5,6 +5,8 @@ These third parties can improve efficiency and reduce costs, but they also intro
 
 This document explains, in practical terms, how to think about vendor and third‑party risk and what a simple, realistic approach looks like for small and medium businesses.
 
+You can use the template `templates/vendor-inventory-and-assessment.csv` to track your vendors and their risk profile.
+
 ---
 
 ## 1. What third‑party risk is (plain language)
@@ -36,7 +38,7 @@ A basic third‑party risk approach can significantly reduce the chance that a v
 
 ## 3. Step 1 – Know who your vendors are
 
-You cannot manage what you do not know. Start with a simple **vendor inventory**:
+You cannot manage what you do not know. Start with a simple **vendor inventory** using `templates/vendor-inventory-and-assessment.csv`:
 
 - List key vendors, suppliers and service providers, including:
   - Cloud services (for example, email, file sharing, CRM, accounting, HR).  
@@ -59,7 +61,7 @@ This can be maintained in a simple spreadsheet or table.
 
 Not all vendors are equal. Focus more attention on third parties that can cause **greater harm** if something goes wrong.
 
-A simple three‑tier model:
+A simple three‑tier model (use the **Risk Level** column in `templates/vendor-inventory-and-assessment.csv`):
 
 - **High‑risk vendors**
   - Handle sensitive or regulated data (for example, customer personal data, payment information, health or financial data).  
@@ -82,7 +84,7 @@ Use this classification to decide where to spend your limited time and effort.
 
 For high‑ and medium‑risk vendors, perform **basic security and risk checks before you start using them**.
 
-You do not need a complex questionnaire. Focus on a few key questions:
+You do not need a complex questionnaire. Focus on a few key questions (use the **Security Certifications/Reports** and **Basic Security Due Diligence Done?** columns in the template):
 
 - **Security basics**
   - Do they use strong authentication and MFA for staff and admin access?  
@@ -116,7 +118,7 @@ You can ask for:
 
 Contracts are where you formalize expectations and responsibilities.
 
-For higher‑risk vendors, consider including clauses covering:
+For higher‑risk vendors, consider including clauses covering (track in the **Contract Includes Security/Privacy Clauses?** column):
 
 - **Data protection**
   - Requirements for protecting your data (encryption, access control, retention and deletion).  
@@ -148,7 +150,8 @@ For high‑ and medium‑risk vendors:
 
 - **Review periodically**
   - Revisit their security posture and performance on a regular cycle (for example, annually or when major changes occur).  
-  - Check whether there have been significant incidents, breaches or public issues.
+  - Check whether there have been significant incidents, breaches or public issues.  
+  - Update the **Review Frequency**, **Last Review Date** and **Next Review Date** columns in `templates/vendor-inventory-and-assessment.csv`.
 
 - **Update classification**
   - If a vendor takes on new responsibilities or gains more access to your systems or data, reclassify them and increase scrutiny if needed.
@@ -191,7 +194,7 @@ Cyber insurance providers may also have requirements and support processes speci
 
 ## 9. Minimal checklist for vendor and third‑party risk
 
-Use this checklist as a quick status check:
+Use this checklist as a quick status check (you can also track progress in the `templates/vendor-inventory-and-assessment.csv`):
 
 - [ ] We maintain a list of key vendors and service providers, including what they do and what data/systems they can access.  
 - [ ] Vendors are classified by risk (for example, high, medium, low) based on data sensitivity, access level and business criticality.  
