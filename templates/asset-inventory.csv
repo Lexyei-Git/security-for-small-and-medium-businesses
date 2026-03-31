@@ -1,7 +1,5 @@
-(CPOY AND PASTE IN YOUR CSV FILE)
 Asset ID,Asset Name,Asset Type,Category,Location/Hosting,Owner/Contact,Business Function,Criticality,Contains Personal Data?,Contains Sensitive Data?,Internet-Facing?,Primary Vendor/Service,Notes
 
-Description:
 Asset ID – Simple unique identifier for the asset (for example, A001, S010, D005).
 Asset Name – Clear name for the asset (for example, “Finance laptop – Maria”, “CRM – HubSpot”, “Payroll database”).
 Asset Type – High‑level type such as Device, Application, Data Set, Network Equipment, SaaS, Database, File Storage.
