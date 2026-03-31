@@ -4,6 +4,8 @@ A basic asset inventory is a **single, clear list of what you have**: devices, s
 
 You do not need a complex database or tool to start. A simple spreadsheet or table is enough and will make all other security work (including risk assessment, patching and access control) much easier.
 
+You can use the CSV template in `templates/asset-inventory.csv` as a starting point and adapt the columns to your environment.
+
 ---
 
 ## 1. What an asset inventory is (plain language)
@@ -22,7 +24,7 @@ An **asset inventory** is just a structured list of these items with a few key d
 
 You can create and maintain this inventory in:
 
-- A spreadsheet (for example, Excel, Google Sheets).  
+- A spreadsheet (for example, Excel, Google Sheets, using `templates/asset-inventory.csv`).  
 - A simple asset management or IT documentation tool, if you already use one.
 
 ---
@@ -60,22 +62,25 @@ You do not need to capture every single file or device immediately. Focus first 
 
 ## 3. Suggested columns for a simple inventory
 
-Below is a suggested set of columns for a starter spreadsheet:
+Below is a suggested set of columns for a starter spreadsheet (already reflected in `templates/asset-inventory.csv`):
 
 | Column name          | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
 | Asset ID             | Simple unique identifier (for example, A001, S001)                         |
-| Asset name           | Short, clear name (for example, “Finance laptop – Maria”, “CRM system”)    |
-| Asset type           | Device, application, data set, network equipment, etc.                     |
+| Asset Name           | Short, clear name (for example, “Finance laptop – Maria”, “CRM system”)    |
+| Asset Type           | Device, application, data set, network equipment, SaaS, etc.               |
+| Category             | Endpoint, server, network, cloud/SaaS, database, file storage, etc.        |
 | Location / hosting   | Office, data centre, cloud provider (for example, “Office – Vancouver”, “Microsoft 365”) |
 | Owner / contact      | Person or role responsible for the asset                                   |
 | Business function    | What part of the business it supports (for example, Finance, Sales, HR)    |
 | Criticality          | Critical / Important / Nice‑to‑have                                        |
-| Contains sensitive data? | Yes / No / Unknown                                                   |
+| Contains personal data? | Yes / No / Unknown                                                     |
+| Contains sensitive data? | Yes / No / Unknown                                                    |
 | Internet‑facing?     | Yes / No                                                                   |
-| Notes                | Any additional details (for example, model, key integrations)              |
+| Primary vendor/service | Main provider if this is a cloud/SaaS or hosted service                 |
+| Notes                | Additional details (for example, version, key integrations)                |
 
-You can add more columns over time (for example, software version, last patch date), but do not start with too many fields or the inventory will be hard to maintain.
+You can add more columns over time, but avoid starting with too many fields or the inventory will be hard to maintain.
 
 ---
 
@@ -166,10 +171,10 @@ In short, the inventory is a **foundation** for almost every other control in th
 
 Use this checklist to see if you have a usable starter inventory:
 
-- [ ] We maintain a written list (for example, spreadsheet) of our key devices, systems and data sets.  
+- [ ] We maintain a written list (for example, spreadsheet or `templates/asset-inventory.csv`) of our key devices, systems and data sets.  
 - [ ] Each asset has a clear name, type and owner/contact.  
 - [ ] We have identified which assets are critical, important or nice‑to‑have.  
-- [ ] We have indicated which assets contain sensitive data and which are internet‑facing.  
+- [ ] We have indicated which assets contain personal or sensitive data and which are internet‑facing.  
 - [ ] Someone is responsible for keeping the inventory up to date.  
 - [ ] The inventory is reviewed and updated at least annually, and when major changes occur.  
 - [ ] The inventory is used as an input for risk assessment, patching, backup planning and other security activities.
