@@ -29,6 +29,16 @@ It is written for non‑security analysts and managers who need to understand **
 - **Policies** – starter policy templates managers can adapt and approve.  
 - **Roadmaps** (planned) – suggested 3–6 month and 12‑month improvement plans.
 
+- ## 📖 Table of Contents
+
+- [Foundations](#foundations)
+- [Where to start](#where-to-start) 
+- [Practical controls](#practical-controls)
+- [Frameworks explained](#frameworks-explained)
+- [Policies](#policies)
+- [Templates](#templates)
+- [Roadmaps](#roadmaps)
+
 The goal is to bridge the gap between **high‑level frameworks** and **day‑to‑day actions** in a small or medium business.
 
 ---
