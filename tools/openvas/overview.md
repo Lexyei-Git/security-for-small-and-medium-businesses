@@ -1,13 +1,13 @@
 # OpenVAS Overview
 
-OpenVAS is a vulnerability scanner used to identify known security weaknesses in systems, services, and network-exposed assets.
+OpenVAS is a vulnerability scanning solution in the Greenbone ecosystem used to identify known security weaknesses in systems, services, and exposed assets.
 
-It is part of the Greenbone ecosystem and supports both authenticated and unauthenticated scans, allowing organizations to assess externally visible risks and, when credentials are provided, detect deeper issues inside operating systems and installed software.
+For small and medium businesses, OpenVAS can help create a practical vulnerability management routine by showing what is exposed, what appears vulnerable, and what should be prioritized for remediation first.
 
-For small and medium businesses, OpenVAS can support basic vulnerability management by helping teams:
-- Discover exposed services and weak configurations
-- Identify known vulnerabilities on servers and endpoints
-- Prioritize remediation based on severity and risk
-- Build evidence for internal reviews and security improvement plans
+It is especially useful for:
+- Internet-facing asset reviews
+- Internal server assessments
+- Patch and misconfiguration visibility
+- Recurrent vulnerability review cycles
 
-OpenVAS is especially useful when an SMB does not yet have a formal vulnerability management process but needs a practical starting point.
+OpenVAS should not be treated as a complete security program on its own. It supports vulnerability detection, but it does not replace patch management, hardening, monitoring, backup strategy, or incident response.
