@@ -3,7 +3,7 @@
 ## Installation
 
 **Linux (Debian/Ubuntu):**
-   - `sudo apt update && sudo apt install nmap
+   - `sudo apt update` && `sudo apt install` nmap
 
 **Linux (RHEL/CentOS/Fedora):**
    - `sudo dnf install nmap` # Fedora 22+
